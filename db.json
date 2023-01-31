@@ -33,14 +33,12 @@
       }
     ]
   ],  
-  "mno_ad_banner": [
-    {
+  "mno_ad_banner": {
       "ad_banner": {
       "image": "https://raw.githubusercontent.com/maye-github/custom-api/main/else_sp_750x80_230106.png.png",
       "url": "https://www.baidu.com"
       }
-    }
-  ],
+  },
   "profile": {
     "name": "typicode"
   }
