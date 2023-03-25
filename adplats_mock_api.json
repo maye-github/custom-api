@@ -1,0 +1,87 @@
+{
+  "adList": [
+    {
+      "type": "html",
+      "url": "",
+      "value": {
+        "advertiserId": "107ba7ef062431f96283c5e9be3dfecd",
+        "campaignId": "74933",
+        "creativeData": {
+          "ゴルフ場ID": {
+            "content": [
+              "450012"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "ゴルフ場名": {
+            "content": [
+              "フェニックスカントリークラブ"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "リンク先": {
+            "content": [
+              "https://gora.golf.rakuten.co.jp/doc/ad/450012/?l-id=k_ad_bn_hi_520370"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "都道府県": {
+            "content": [
+              "宮崎県"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "高速道路": {
+            "content": [
+              "宮崎自動車道"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "IC名": {
+            "content": [
+              "宮崎"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "ICからの距離": {
+            "content": [
+              "15km以内"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          },
+          "コース紹介文": {
+            "content": [
+              "日本屈指の名門ゴルフコース！"
+            ],
+            "link": "",
+            "nativeLink": "",
+            "redirectLink": "",
+            "type": "1"
+          }
+        },
+        "creativeId": "0dafd44b654dcb73"
+      }
+    }
+  ]
+}
