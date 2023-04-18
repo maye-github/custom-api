@@ -39,7 +39,7 @@
       "url": "https://www.baidu.com"
       }
   },
-  "adplats_depleted_mock_api": {
+  "adplats_mock_api": {
     "adList":[
        {
           "type":"html",
