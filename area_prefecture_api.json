@@ -267,16 +267,6 @@
                     "prefectureCode": 47
                 }
             ]
-        },
-        {
-            "areaCode": 109,
-            "areaName": "海外",
-            "prefectureList": [
-                {
-                    "prefectureName": "海外すべて",
-                    "prefectureCode": 109
-                }
-            ]
         }
     ]
 }
