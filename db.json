@@ -40,24 +40,36 @@
             "areaName": "北海道・東北",
             "prefectureList": [
                 {
-                    "prefectureCode": 1,
+                    "prefectureName": "北海道・東北すべて",
+                    "prefectureCode": 101
+                },
+                {
                     "prefectureName": "北海道",
-                    "isSelected": 0
+                    "prefectureCode": 1
                 },
                 {
-                    "prefectureCode": 2,
                     "prefectureName": "青森県",
-                    "isSelected": 0
+                    "prefectureCode": 2
                 },
                 {
-                    "prefectureCode": 3,
                     "prefectureName": "岩手県",
-                    "isSelected": 0
+                    "prefectureCode": 3
                 },
                 {
-                    "prefectureCode": 4,
                     "prefectureName": "宮城県",
-                    "isSelected": 0
+                    "prefectureCode": 4
+                },
+                {
+                    "prefectureName": "秋田県",
+                    "prefectureCode": 5
+                },
+                {
+                    "prefectureName": "山形県",
+                    "prefectureCode": 6
+                },
+                {
+                    "prefectureName": "福島県",
+                    "prefectureCode": 7
                 }
             ]
         },
@@ -66,19 +78,238 @@
             "areaName": "関東・甲信越",
             "prefectureList": [
                 {
-                    "prefectureCode": 5,
+                    "prefectureName": "関東・甲信越すべて",
+                    "prefectureCode": 102
+                },
+                {
                     "prefectureName": "茨城県",
-                    "isSelected": 1
+                    "prefectureCode": 8
                 },
                 {
-                    "prefectureCode": 6,
                     "prefectureName": "栃木県",
-                    "isSelected": 0
+                    "prefectureCode": 9
                 },
                 {
-                    "prefectureCode": 7,
                     "prefectureName": "群馬県",
-                    "isSelected": 0
+                    "prefectureCode": 10
+                },
+                {
+                    "prefectureName": "埼玉県",
+                    "prefectureCode": 11
+                },
+                {
+                    "prefectureName": "千葉県",
+                    "prefectureCode": 12
+                },
+                {
+                    "prefectureName": "東京都",
+                    "prefectureCode": 13
+                },
+                {
+                    "prefectureName": "神奈川県",
+                    "prefectureCode": 14
+                },
+                {
+                    "prefectureName": "山梨県",
+                    "prefectureCode": 19
+                },
+                {
+                    "prefectureName": "長野県",
+                    "prefectureCode": 20
+                },
+                {
+                    "prefectureName": "静岡県",
+                    "prefectureCode": 22
+                },
+                {
+                    "prefectureName": "新潟県",
+                    "prefectureCode": 15
+                }
+            ]
+        },
+        {
+            "areaCode": 103,
+            "areaName": "北陸",
+            "prefectureList": [
+                {
+                    "prefectureName": "北陸すべて",
+                    "prefectureCode": 103
+                },
+                {
+                    "prefectureName": "富山県",
+                    "prefectureCode": 16
+                },
+                {
+                    "prefectureName": "石川県",
+                    "prefectureCode": 17
+                },
+                {
+                    "prefectureName": "福井県",
+                    "prefectureCode": 18
+                }
+            ]
+        },
+        {
+            "areaCode": 104,
+            "areaName": "中部",
+            "prefectureList": [
+                {
+                    "prefectureName": "中部すべて",
+                    "prefectureCode": 104
+                },
+                {
+                    "prefectureName": "岐阜県",
+                    "prefectureCode": 21
+                },
+                {
+                    "prefectureName": "愛知県",
+                    "prefectureCode": 23
+                },
+                {
+                    "prefectureName": "三重県",
+                    "prefectureCode": 24
+                }
+            ]
+        },
+        {
+            "areaCode": 105,
+            "areaName": "近畿",
+            "prefectureList": [
+                {
+                    "prefectureName": "近畿すべて",
+                    "prefectureCode": 105
+                },
+                {
+                    "prefectureName": "滋賀県",
+                    "prefectureCode": 25
+                },
+                {
+                    "prefectureName": "京都府",
+                    "prefectureCode": 26
+                },
+                {
+                    "prefectureName": "大阪府",
+                    "prefectureCode": 27
+                },
+                {
+                    "prefectureName": "兵庫県",
+                    "prefectureCode": 28
+                },
+                {
+                    "prefectureName": "奈良県",
+                    "prefectureCode": 29
+                },
+                {
+                    "prefectureName": "和歌山県",
+                    "prefectureCode": 30
+                }
+            ]
+        },
+        {
+            "areaCode": 106,
+            "areaName": "中国",
+            "prefectureList": [
+                {
+                    "prefectureName": "中国すべて",
+                    "prefectureCode": 106
+                },
+                {
+                    "prefectureName": "鳥取県",
+                    "prefectureCode": 31
+                },
+                {
+                    "prefectureName": "島根県",
+                    "prefectureCode": 32
+                },
+                {
+                    "prefectureName": "岡山県",
+                    "prefectureCode": 33
+                },
+                {
+                    "prefectureName": "広島県",
+                    "prefectureCode": 34
+                },
+                {
+                    "prefectureName": "山口県",
+                    "prefectureCode": 35
+                }
+            ]
+        },
+        {
+            "areaCode": 107,
+            "areaName": "四国",
+            "prefectureList": [
+                {
+                    "prefectureName": "四国すべて",
+                    "prefectureCode": 107
+                },
+                {
+                    "prefectureName": "徳島県",
+                    "prefectureCode": 36
+                },
+                {
+                    "prefectureName": "香川県",
+                    "prefectureCode": 37
+                },
+                {
+                    "prefectureName": "愛媛県",
+                    "prefectureCode": 38
+                },
+                {
+                    "prefectureName": "高知県",
+                    "prefectureCode": 39
+                }
+            ]
+        },
+        {
+            "areaCode": 108,
+            "areaName": "九州・沖縄",
+            "prefectureList": [
+                {
+                    "prefectureName": "九州・沖縄すべて",
+                    "prefectureCode": 108
+                },
+                {
+                    "prefectureName": "福岡県",
+                    "prefectureCode": 40
+                },
+                {
+                    "prefectureName": "佐賀県",
+                    "prefectureCode": 41
+                },
+                {
+                    "prefectureName": "長崎県",
+                    "prefectureCode": 42
+                },
+                {
+                    "prefectureName": "熊本県",
+                    "prefectureCode": 43
+                },
+                {
+                    "prefectureName": "大分県",
+                    "prefectureCode": 44
+                },
+                {
+                    "prefectureName": "宮崎県",
+                    "prefectureCode": 45
+                },
+                {
+                    "prefectureName": "鹿児島県",
+                    "prefectureCode": 46
+                },
+                {
+                    "prefectureName": "沖縄県",
+                    "prefectureCode": 47
+                }
+            ]
+        },
+        {
+            "areaCode": 109,
+            "areaName": "海外",
+            "prefectureList": [
+                {
+                    "prefectureName": "海外すべて",
+                    "prefectureCode": 109
                 }
             ]
         }
