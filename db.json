@@ -26,7 +26,7 @@
                 "is_early_discount": true,
                 "is_first_booking_privilege": false,
                 "is_woman_special_advantages": true,
-                "have_lunch": true,
+                "have_lunch": false,
                 "have_caddie": true,
                 "cart_code": 2,
                 "round_code": 2,
