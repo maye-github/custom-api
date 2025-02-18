@@ -59,7 +59,7 @@
       ],
       "play_date": "2023-12-31",
       "start_time": "12:00:00",
-      "is_fully_occupied": true,
+      "is_fully_occupied": false,
       "players": [
         {
           "nickname": "楽天太郎",
@@ -248,7 +248,8 @@
           "reservation_type": 0
         }
       ]
-    },{
+    },
+    {
       "golf_course_id": 1004,
       "golf_course_name": "ひととのやカントリー倶楽部444",
       "golf_course_photo_filename": "1001.jpg",
