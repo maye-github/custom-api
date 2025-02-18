@@ -39,7 +39,7 @@
       "max_player": 4,
       "play_date": "2025-3-31",
       "start_time": "12:00:00",
-      "is_fully_occupied": false,
+      "is_fully_occupied": true,
       "players": [
         {
           "nickname": "楽天太郎1",
