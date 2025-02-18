@@ -236,18 +236,6 @@
                 "start_time": "12:00:00",
                 "is_fully_occupied": false,
                 "players": [
-                    {
-                        "nickname": "楽天太郎",
-                        "age_range": "30代",
-                        "score_range": "70台",
-                        "gender": "male",
-                        "player_icon_code": 0,
-                        "player_icon_type": 1,
-                        "player_introduction": "楽天ゴルフをよろしくお願いします",
-                        "play_style": "1",
-                        "player_comment": "楽天ゴルフをよろしくお願いします",
-                        "reservation_type": 0
-                    }
                 ]
             }
         ],
