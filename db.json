@@ -1,20 +1,19 @@
 {
-  "solo_search_result_api": {
-    "data": [
-     {
-      "golf_course_id": 100001,
+  "data": [
+    {
+      "golf_course_id": 1001,
       "golf_course_name": "ひととのやカントリー倶楽部1",
       "golf_course_photo_filename": "1001.jpg",
       "review_rating": 3.5,
-      "prefecture_name": "群馬県1",
-      "highway_name": "東名高速道路1",
+      "prefecture_name": "群馬県",
+      "highway_name": "東名高速道路",
       "interchange_name": "沼津",
       "interchange_distance_name": "5km以内",
       "coupon_usage_flag": true,
       "point_usage_flag": true,
       "has_pg": true,
       "plan_id": 3,
-      "plan_name": "[2名で開催]早朝0.5Rプレー※ご案内必読1",
+      "plan_name": "2名で開催]早朝0.5Rプレー※ご案内必読111",
       "base_price": 2000,
       "sales_tax": 300,
       "course_use_tax": 100,
@@ -24,7 +23,7 @@
       "is_round_lesson": true,
       "is_play_promise": true,
       "is_early_discount": true,
-      "is_early_bird_benefit": true,
+      "is_first_booking_privilege": true,
       "is_woman_special_advantages": true,
       "have_lunch": true,
       "have_caddie": true,
@@ -32,175 +31,88 @@
       "round_code": 2,
       "is_secret_plan": true,
       "min_player": 3,
-      "advance_time_from": "2025-3-31 12:00:00",
-      "advance_time_to": "2025-3-31 12:00:00",
+      "advance_time_from": "2023-12-31 12:00:00",
+      "advance_time_to": "2023-12-31 12:00:00",
       "stock_id": 1001,
-      "course_name": "course A1",
+      "course_name": "course A",
       "max_player": 4,
-      "play_date": "2025-3-31",
+      "secret_key": "ThisIsASecretKey",
+      "secret_month": [
+        {
+          "secret_month1": true
+        },
+        {
+          "secret_month2": true
+        },
+        {
+          "secret_month3": true
+        },
+        {
+          "secret_month4": true
+        },
+        {
+          "secret_month5": false
+        },
+        {
+          "secret_month6": true
+        }
+      ],
+      "play_date": "2023-12-31",
       "start_time": "12:00:00",
       "is_fully_occupied": true,
       "players": [
         {
-          "nickname": "楽天太郎1",
+          "nickname": "楽天太郎",
           "age_range": "30代",
           "score_range": "70台",
           "gender": "male",
           "player_icon_code": 0,
           "player_icon_type": 1,
-          "player_introduction": "楽天ゴルフをよろしくお願いします111",
+          "player_introduction": "楽天ゴルフをよろしくお願いします",
           "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします111",
-          "reservation_type": 2
+          "player_comment": "楽天ゴルフをよろしくお願いします",
+          "reservation_type": 0
         },
-        {
-          "nickname": "楽天太郎a",
-          "age_range": "30代",
-          "score_range": "70台",
-          "gender": "male",
-          "player_icon_code": 0,
-          "player_icon_type": 2,
-          "player_introduction": "楽天ゴルフをよろしくお願いします111",
-          "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします111",
-          "reservation_type": 2
-        },
-        {
-          "nickname": "楽天太郎b",
-          "age_range": "30代",
-          "score_range": "70台",
-          "gender": "male",
-          "player_icon_code": 1,
-          "player_icon_type": 1,
-          "player_introduction": "楽天ゴルフをよろしくお願いします111",
-          "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします111",
-          "reservation_type": 2
-        }
-      ]
-    },
-    {
-      "golf_course_id": 100002,
-      "golf_course_name": "ひととのやカントリー倶楽部2",
-      "golf_course_photo_filename": "1001.jpg",
-      "review_rating": 3.9,
-      "prefecture_name": "群馬県2",
-      "highway_name": "東名高速道路2",
-      "interchange_name": "沼津",
-      "interchange_distance_name": "5km以内",
-      "coupon_usage_flag": true,
-      "point_usage_flag": true,
-      "has_pg": true,
-      "plan_id": 3,
-      "plan_name": "[2名で開催]早朝0.5Rプレー※ご案内必読2",
-      "base_price": 2000,
-      "sales_tax": 300,
-      "course_use_tax": 100,
-      "other_tax": 200,
-      "play_fee": 2300,
-      "is_competition": true,
-      "is_round_lesson": true,
-      "is_play_promise": true,
-      "is_early_discount": true,
-      "is_early_bird_benefit": true,
-      "is_woman_special_advantages": true,
-      "have_lunch": true,
-      "have_caddie": true,
-      "cart_code": 2,
-      "round_code": 2,
-      "is_secret_plan": true,
-      "min_player": 3,
-      "advance_time_from": "2025-3-31 12:00:00",
-      "advance_time_to": "2025-3-31 12:00:00",
-      "stock_id": 1001,
-      "course_name": "course A2",
-      "max_player": 4,
-      "play_date": "2025-3-31",
-      "start_time": "12:00:00",
-      "is_fully_occupied": false,
-      "players": [
         {
           "nickname": "楽天太郎2",
-          "age_range": "40代",
-          "score_range": "80台",
+          "age_range": "30代",
+          "score_range": "70台",
           "gender": "male",
           "player_icon_code": 0,
           "player_icon_type": 1,
-          "player_introduction": "楽天ゴルフをよろしくお願いします222",
+          "player_introduction": "楽天ゴルフをよろしくお願いします22",
           "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします222",
-          "reservation_type": 1
-        }
-      ]
-    },
-    {
-      "golf_course_id": 100003,
-      "golf_course_name": "ひととのやカントリー倶楽部3",
-      "golf_course_photo_filename": "1001.jpg",
-      "review_rating": 4.5,
-      "prefecture_name": "群馬県3",
-      "highway_name": "東名高速道路3",
-      "interchange_name": "沼津",
-      "interchange_distance_name": "5km以内",
-      "coupon_usage_flag": true,
-      "point_usage_flag": true,
-      "has_pg": true,
-      "plan_id": 3,
-      "plan_name": "[2名で開催]早朝0.5Rプレー※ご案内必読3",
-      "base_price": 2000,
-      "sales_tax": 300,
-      "course_use_tax": 100,
-      "other_tax": 200,
-      "play_fee": 2300,
-      "is_competition": true,
-      "is_round_lesson": true,
-      "is_play_promise": true,
-      "is_early_discount": false,
-      "is_early_bird_benefit": true,
-      "is_woman_special_advantages": true,
-      "have_lunch": true,
-      "have_caddie": true,
-      "cart_code": 2,
-      "round_code": 2,
-      "is_secret_plan": true,
-      "min_player": 3,
-      "advance_time_from": "2025-3-31 12:00:00",
-      "advance_time_to": "2025-3-31 12:00:00",
-      "stock_id": 1001,
-      "course_name": "course A3",
-      "max_player": 4,
-      "play_date": "2025-3-31",
-      "start_time": "12:00:00",
-      "is_fully_occupied": false,
-      "players": [
+          "player_comment": "楽天ゴルフをよろしくお願いします22",
+          "reservation_type": 0
+        },
         {
           "nickname": "楽天太郎3",
-          "age_range": "50代",
+          "age_range": "30代",
           "score_range": "70台",
           "gender": "male",
-          "player_icon_code": 1,
+          "player_icon_code": 0,
           "player_icon_type": 1,
           "player_introduction": "楽天ゴルフをよろしくお願いします3",
           "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします3",
-          "reservation_type": 0
+          "player_comment": "楽天ゴルフをよろしくお願いします",
+          "reservation_type": 2
         }
       ]
     },
     {
-      "golf_course_id": 100004,
-      "golf_course_name": "ひととのやカントリー倶楽部4",
+      "golf_course_id": 1002,
+      "golf_course_name": "ひととのやカントリー倶楽部222",
       "golf_course_photo_filename": "1001.jpg",
-      "review_rating": 2.3,
-      "prefecture_name": "群馬県4",
-      "highway_name": "東名高速道路4",
+      "review_rating": 3.5,
+      "prefecture_name": "群馬県",
+      "highway_name": "東名高速道路",
       "interchange_name": "沼津",
       "interchange_distance_name": "5km以内",
       "coupon_usage_flag": true,
       "point_usage_flag": true,
       "has_pg": true,
       "plan_id": 3,
-      "plan_name": "[2名で開催]早朝0.5Rプレー※ご案内必読4",
+      "plan_name": "2名で開催]早朝0.5Rプレー※ご案内必読222",
       "base_price": 2000,
       "sales_tax": 300,
       "course_use_tax": 100,
@@ -210,20 +122,41 @@
       "is_round_lesson": true,
       "is_play_promise": true,
       "is_early_discount": true,
-      "is_early_bird_benefit": true,
+      "is_first_booking_privilege": true,
       "is_woman_special_advantages": true,
       "have_lunch": true,
-      "have_caddie": false,
+      "have_caddie": true,
       "cart_code": 2,
       "round_code": 2,
       "is_secret_plan": true,
       "min_player": 3,
-      "advance_time_from": "2025-3-31 12:00:00",
-      "advance_time_to": "2025-3-31 12:00:00",
+      "advance_time_from": "2023-12-31 12:00:00",
+      "advance_time_to": "2023-12-31 12:00:00",
       "stock_id": 1001,
-      "course_name": "course 4",
+      "course_name": "course A",
       "max_player": 4,
-      "play_date": "2025-3-31",
+      "secret_key": "ThisIsASecretKey",
+      "secret_month": [
+        {
+          "secret_month1": true
+        },
+        {
+          "secret_month2": true
+        },
+        {
+          "secret_month3": true
+        },
+        {
+          "secret_month4": true
+        },
+        {
+          "secret_month5": false
+        },
+        {
+          "secret_month6": true
+        }
+      ],
+      "play_date": "2023-12-31",
       "start_time": "12:00:00",
       "is_fully_occupied": false,
       "players": [
@@ -231,30 +164,30 @@
           "nickname": "楽天太郎",
           "age_range": "30代",
           "score_range": "70台",
-          "gender": "female",
+          "gender": "male",
           "player_icon_code": 0,
           "player_icon_type": 1,
-          "player_introduction": "楽天ゴルフをよろしくお願いします4",
+          "player_introduction": "楽天ゴルフをよろしくお願いします",
           "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします4",
+          "player_comment": "楽天ゴルフをよろしくお願いします",
           "reservation_type": 0
         }
       ]
     },
     {
-      "golf_course_id": 100005,
-      "golf_course_name": "ひととのやカントリー倶楽部5",
+      "golf_course_id": 1003,
+      "golf_course_name": "ひととのやカントリー倶楽部333",
       "golf_course_photo_filename": "1001.jpg",
-      "review_rating": 5.0,
-      "prefecture_name": "群馬県5",
-      "highway_name": "東名高速道路5",
+      "review_rating": 3.5,
+      "prefecture_name": "群馬県",
+      "highway_name": "東名高速道路",
       "interchange_name": "沼津",
       "interchange_distance_name": "5km以内",
       "coupon_usage_flag": true,
       "point_usage_flag": true,
       "has_pg": true,
       "plan_id": 3,
-      "plan_name": "[2名で開催]早朝0.5Rプレー※ご案内必読5",
+      "plan_name": "2名で開催]早朝0.5Rプレー※ご案内必読333",
       "base_price": 2000,
       "sales_tax": 300,
       "course_use_tax": 100,
@@ -264,33 +197,202 @@
       "is_round_lesson": true,
       "is_play_promise": true,
       "is_early_discount": true,
-      "is_early_bird_benefit": true,
+      "is_first_booking_privilege": true,
       "is_woman_special_advantages": true,
-      "have_lunch": false,
-      "have_caddie": false,
+      "have_lunch": true,
+      "have_caddie": true,
       "cart_code": 2,
       "round_code": 2,
       "is_secret_plan": true,
       "min_player": 3,
-      "advance_time_from": "2025-3-31 12:00:00",
-      "advance_time_to": "2025-3-31 12:00:00",
+      "advance_time_from": "2023-12-31 12:00:00",
+      "advance_time_to": "2023-12-31 12:00:00",
       "stock_id": 1001,
       "course_name": "course A",
       "max_player": 4,
-      "play_date": "2025-3-31",
+      "secret_key": "ThisIsASecretKey",
+      "secret_month": [
+        {
+          "secret_month1": true
+        },
+        {
+          "secret_month2": true
+        },
+        {
+          "secret_month3": true
+        },
+        {
+          "secret_month4": true
+        },
+        {
+          "secret_month5": false
+        },
+        {
+          "secret_month6": true
+        }
+      ],
+      "play_date": "2023-12-31",
       "start_time": "12:00:00",
       "is_fully_occupied": false,
       "players": [
         {
-          "nickname": "楽天太郎5",
+          "nickname": "楽天太郎",
           "age_range": "30代",
           "score_range": "70台",
           "gender": "male",
           "player_icon_code": 0,
           "player_icon_type": 1,
-          "player_introduction": "楽天ゴルフをよろしくお願いします555",
+          "player_introduction": "楽天ゴルフをよろしくお願いします",
           "play_style": "1",
-          "player_comment": "楽天ゴルフをよろしくお願いします555",
+          "player_comment": "楽天ゴルフをよろしくお願いします",
+          "reservation_type": 0
+        }
+      ]
+    },{
+      "golf_course_id": 1004,
+      "golf_course_name": "ひととのやカントリー倶楽部444",
+      "golf_course_photo_filename": "1001.jpg",
+      "review_rating": 3.5,
+      "prefecture_name": "群馬県",
+      "highway_name": "東名高速道路",
+      "interchange_name": "沼津",
+      "interchange_distance_name": "5km以内",
+      "coupon_usage_flag": true,
+      "point_usage_flag": true,
+      "has_pg": true,
+      "plan_id": 3,
+      "plan_name": "2名で開催]早朝0.5Rプレー※ご案内必読",
+      "base_price": 2000,
+      "sales_tax": 300,
+      "course_use_tax": 100,
+      "other_tax": 200,
+      "play_fee": 2300,
+      "is_competition": true,
+      "is_round_lesson": true,
+      "is_play_promise": true,
+      "is_early_discount": true,
+      "is_first_booking_privilege": true,
+      "is_woman_special_advantages": true,
+      "have_lunch": true,
+      "have_caddie": true,
+      "cart_code": 2,
+      "round_code": 2,
+      "is_secret_plan": true,
+      "min_player": 3,
+      "advance_time_from": "2023-12-31 12:00:00",
+      "advance_time_to": "2023-12-31 12:00:00",
+      "stock_id": 1001,
+      "course_name": "course A",
+      "max_player": 4,
+      "secret_key": "ThisIsASecretKey",
+      "secret_month": [
+        {
+          "secret_month1": true
+        },
+        {
+          "secret_month2": true
+        },
+        {
+          "secret_month3": true
+        },
+        {
+          "secret_month4": true
+        },
+        {
+          "secret_month5": false
+        },
+        {
+          "secret_month6": true
+        }
+      ],
+      "play_date": "2023-12-31",
+      "start_time": "12:00:00",
+      "is_fully_occupied": false,
+      "players": [
+        {
+          "nickname": "楽天太郎",
+          "age_range": "30代",
+          "score_range": "70台",
+          "gender": "male",
+          "player_icon_code": 0,
+          "player_icon_type": 1,
+          "player_introduction": "楽天ゴルフをよろしくお願いします",
+          "play_style": "1",
+          "player_comment": "楽天ゴルフをよろしくお願いします",
+          "reservation_type": 0
+        }
+      ]
+    },{
+      "golf_course_id": 1005,
+      "golf_course_name": "ひととのやカントリー倶楽部555",
+      "golf_course_photo_filename": "1001.jpg",
+      "review_rating": 3.5,
+      "prefecture_name": "群馬県",
+      "highway_name": "東名高速道路",
+      "interchange_name": "沼津",
+      "interchange_distance_name": "5km以内",
+      "coupon_usage_flag": true,
+      "point_usage_flag": true,
+      "has_pg": true,
+      "plan_id": 3,
+      "plan_name": "2名で開催]早朝0.5Rプレー※ご案内必読",
+      "base_price": 2000,
+      "sales_tax": 300,
+      "course_use_tax": 100,
+      "other_tax": 200,
+      "play_fee": 2300,
+      "is_competition": true,
+      "is_round_lesson": true,
+      "is_play_promise": true,
+      "is_early_discount": true,
+      "is_first_booking_privilege": true,
+      "is_woman_special_advantages": true,
+      "have_lunch": true,
+      "have_caddie": true,
+      "cart_code": 2,
+      "round_code": 2,
+      "is_secret_plan": true,
+      "min_player": 3,
+      "advance_time_from": "2023-12-31 12:00:00",
+      "advance_time_to": "2023-12-31 12:00:00",
+      "stock_id": 1001,
+      "course_name": "course A",
+      "max_player": 4,
+      "secret_key": "ThisIsASecretKey",
+      "secret_month": [
+        {
+          "secret_month1": true
+        },
+        {
+          "secret_month2": true
+        },
+        {
+          "secret_month3": true
+        },
+        {
+          "secret_month4": true
+        },
+        {
+          "secret_month5": false
+        },
+        {
+          "secret_month6": true
+        }
+      ],
+      "play_date": "2023-12-31",
+      "start_time": "12:00:00",
+      "is_fully_occupied": false,
+      "players": [
+        {
+          "nickname": "楽天太郎",
+          "age_range": "30代",
+          "score_range": "70台",
+          "gender": "male",
+          "player_icon_code": 0,
+          "player_icon_type": 1,
+          "player_introduction": "楽天ゴルフをよろしくお願いします",
+          "play_style": "1",
+          "player_comment": "楽天ゴルフをよろしくお願いします",
           "reservation_type": 0
         }
       ]
@@ -298,10 +400,5 @@
   ],
   "current_offset": 0,
   "max_offset": 0,
-  "total": 5
-  },
-  "profile": {
-    "name": "typicode"
-  }
+  "total": 0
 }
-
