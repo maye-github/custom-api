@@ -64,7 +64,7 @@
                 "players": [
                     {
                         "nickname": "楽天太郎",
-                        "age_range":"",
+                        "age_range": "",
                         "score_range": "70台",
                         "gender": "female",
                         "player_icon_code": 0,
@@ -77,7 +77,7 @@
                     {
                         "nickname": "楽天太郎2",
                         "age_range": "30代",
-                        "score_range":"",
+                        "score_range": "",
                         "gender": "male",
                         "player_icon_code": 0,
                         "player_icon_type": 1,
@@ -100,8 +100,8 @@
                     },
                     {
                         "nickname": "楽天太郎4",
-                        "age_range":"",
-                        "score_range":"",
+                        "age_range": "",
+                        "score_range": "",
                         "gender": "unknown",
                         "player_icon_code": 0,
                         "player_icon_type": 1,
