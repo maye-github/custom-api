@@ -35,7 +35,7 @@
                 "advance_time_from": "2023-12-31 12:00:00",
                 "advance_time_to": "2023-12-31 12:00:00",
                 "stock_id": 1001,
-                "course_name": "course A",
+                "course_name": "course Aasdasdqweqwe",
                 "max_player": 4,
                 "secret_key": "ThisIsASecretKey",
                 "secret_month": [
@@ -76,7 +76,7 @@
                     },
                     {
                         "nickname": "楽天太郎2",
-                        "age_range": "30代",
+                        "age_range": "40代",
                         "score_range": "",
                         "gender": "male",
                         "player_icon_code": 0,
