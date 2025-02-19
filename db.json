@@ -60,7 +60,7 @@
                 ],
                 "play_date": "2023-12-31",
                 "start_time": "12:00:00",
-                "is_fully_occupied": true,
+                "is_fully_occupied": false,
                 "players": [
                     {
                         "nickname": "楽天太郎",
